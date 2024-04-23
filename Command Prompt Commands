@@ -3,3 +3,8 @@ pip install Django
 django-admin startproject PROJECT_NAME
 cd PROJECT_NAME
 python manage.py startapp webapp
+
+Inside of the "INSTALLED_APPS" list in settings.py for the Django project, add the app:
+INSTALLED_APPS = [
+    "webapp",
+]
