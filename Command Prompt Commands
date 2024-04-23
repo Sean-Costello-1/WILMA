@@ -1,0 +1,5 @@
+Command Prompt commands to install and configure Django:
+pip install Django
+django-admin startproject PROJECT_NAME
+cd PROJECT_NAME
+python manage.py startapp webapp
