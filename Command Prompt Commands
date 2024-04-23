@@ -6,5 +6,14 @@ python manage.py startapp webapp
 
 Inside of the "INSTALLED_APPS" list in settings.py for the Django project, add the app:
 INSTALLED_APPS = [
-    "webapp",
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'webapp'
 ]
+
+To run the server:
+python manage.py runserver
